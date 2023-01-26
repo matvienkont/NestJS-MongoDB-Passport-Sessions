@@ -33,7 +33,7 @@ export class UsersController {
     }
 
     @UseGuards(AuthenticatedGuard)
-    @Post('/change-password')
+    @Post('/user/change-password')
     async changePassword(@Req() req: RequestWithUser, @Body() changePasswordDto: ChangePasswordDto, @GetUser('email') email: string) {
         const { newPassword } = changePasswordDto;
         await this.usersServices.changePassword(email, changePasswordDto);

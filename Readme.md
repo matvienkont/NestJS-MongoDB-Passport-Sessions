@@ -1,3 +1,7 @@
+# Start
+`docker-compose --env-file .testenv up`
+`npm run start:dev`
+
 # Introduction
 
 Foremost, thank you for your participation. We are a small startup with limited resources, but we have ambitious plans and even bigger dreams. Our goal is to change the way how people and healthcare service provider connect with each other. To achieve that, we require developers who are highly motivated and have a solid foundation of knowledge for our required technology stack. Once again, thank you for your participation.
